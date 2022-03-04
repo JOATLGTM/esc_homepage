@@ -9,11 +9,11 @@ export default function ProductList(props) {
                 <img className="product" src={img} alt={alt}/>
             </div>
             <div>
-                <p>
+                <p className="name">
                     {name}
                 </p> 
             </div>
-            <div>
+            <div className="price">
                 <p>${price}</p>
             </div>
         </div>

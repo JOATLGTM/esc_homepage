@@ -1,0 +1,17 @@
+.nm-footer {
+    color: #aaa;
+    line-height: 30px;
+    vertical-align: middle;
+    z-index: 505;
+    position: relative;
+    right: 0;
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 31px;
+    background-color: #282828;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}

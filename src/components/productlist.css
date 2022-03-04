@@ -7,3 +7,26 @@
 .product {
     width: 250px;
 }
+
+.name {
+    font-style: normal;
+    line-height: 1.4;
+    color: #282828;
+    font-family: 'MaisonNeue',sans-serif;
+    color: #777;
+    margin-top: 14px;
+    letter-spacing: 1px;
+}
+
+.price {
+    font-family: 'MaisonNeue',sans-serif;
+    display: block;
+    padding-top: 2px;
+    white-space: nowrap;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+    color: #282828;
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: 300;
+}

@@ -14,6 +14,7 @@ import Peytonsbagofhearts from './assets/Peytonsbagofhearts.jpg'
 import suckerforyou from './assets/suckerforyou.jpg'
 import valentinepostman from './assets/valentinepostman.jpg'
 import vickisvalentine from './assets/vickisvalentine.jpg'
+import Footer from './components/Footer'
 import './app.css'
 
 const information = [
@@ -96,6 +97,7 @@ function App() {
           return <ProductList img={info.img} alt={info.alt} name={info.name} price={info.price} />
         })}
       </div>
+      <Footer />
     </div>
   );
 }
