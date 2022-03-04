@@ -1,0 +1,59 @@
+.nav {
+    height: 79px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.links {
+    padding: 16px 12px;
+    color: #686868;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: bottom;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.title {
+    font-family: "Gill Sans", sans-serif;
+    padding: 16px 12px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: bottom;
+    text-decoration: none;
+    padding: 16px;
+    letter-spacing: 5px;
+}
+
+.nm-menu {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.nm-menu li {
+    position: relative;
+    float: left;
+}
+
+li {
+    list-style: none;
+}
+
+.links:hover{
+    color: #000000;
+}
+
+.title:hover {
+    color: #000000;
+}
