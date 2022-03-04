@@ -1,5 +1,4 @@
 .main {
-    position: absolute;
     margin-top: 79px;
     width: 100%;
     padding: 0 50px;
@@ -26,4 +25,5 @@
 
 .carousel-indicators {
     bottom: auto !important;
+    z-index: 1 !important;
 }

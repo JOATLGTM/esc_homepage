@@ -1,0 +1,15 @@
+.nm-shop-header {
+    padding: 56px 0;
+    color: #686868;
+}
+
+.nm-shop-menu {
+    overflow: hidden;
+}
+
+.nm-shop-categories {
+    padding: 0px 5%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 10%;
+}

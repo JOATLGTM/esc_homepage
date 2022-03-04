@@ -1,0 +1,9 @@
+.product-list {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
+
+.product {
+    width: 250px;
+}
